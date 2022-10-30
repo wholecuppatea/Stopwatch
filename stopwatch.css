@@ -1,0 +1,55 @@
+body {
+    background-color: cornflowerblue;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 100px auto;
+    length: 40%;
+    min-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    color: cornflowerblue;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: inset;
+    border-width: 0.2em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+#seconds, #tens {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 28px;
+    font-size: large;
+    padding: 10px 15px;
+    margin: 0px 15px;
+    border-color: blue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
